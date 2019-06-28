@@ -1,5 +1,6 @@
-const NodeMediaServer = require('node-media-server'),
-    config = require('./config/default').rtmp_server;
+const NodeMediaServer = require('node-media-server');
+const config = require('./config/default.js').rtmp_server;
+console.log(config);
  
 nms = new NodeMediaServer(config);
  
